@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em Html5</title>
+</head>
+<body>
+    <h1>Minhas Rede Sociais &#x1F933;</h1> 
+   <h2>Quem Sou Eu?</h2>
+   <img src="img/daa3f01a6065db9363f37c8090d06f69.jpg" srcset="minha foto">
+   
+    <p>Meu nome é <strong>Érika Laiane</strong>, sou estudante autônoma de Programação e estou iniciando nesse ramo, pois descobri depois de me forma como Técnica em Mecânica, que não gosto de Mecânica. Sempre gostei de tecnologia, e por isso resolvi arriscar na Programação.</p>
+    
+    <h2>Como falar comigo?</h2>
+    <ul>
+        <li><img src="img/icone-github.png" alt="githubicon"> <a href="https://github.com/erikalaiane" target="_blank" rel="external">/erikalaiane</a> - Acesse meu repositório público no Github!</li>
+        <li><img src="img/icone-instagram.png" alt="instaicon"> <a href="https://instagram.com/flwer.rik" target="_blank" rel="external">/flwer.rik</a> - Me siga no Instagram!</li>
+        <li><img src="img/icone-linkedin.png" alt="Linkedin"><a href="https://instagram.com/flwer.rik">/linkdarika</a> - Me adicione no Linkedin!</li>
+        <li><img src="img/icone-twitter.png" alt="twittericon"><a href="https://twitter.com/writtenbyrika" target="_blank" rel="external">/writtenbyrika</a> - Me siga no Twitter</li>
+    </ul>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/m.png" type="image/png">
+        <img src="img/g.png" alt="A imagem flexivel funciona">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos reproduzir audios em HTML5</p>
+    <audio src="midia/y2meta.com - M83 'Midnight City' Official video (320 kbps).mp3" controls ></audio>
+<!--Aqui em cima colocamos a forma mais fácil, mas é recomendado que coloque a forma mais correta e completa que está aqui em baixo.-->
+<br>
+    <audio  controls loop>
+        <source src="midia/Mob Rich - Yoko Ono.mp3" type="audio/mpeg">
+        <source src="midia/Mob Rich - Yoko Ono.ogg" type="audio/ogg">
+        <source src="midia/Mob Rich - Yoko Ono.wav" type="audio/wav">
+       <p>Seu navegador não suporta áudio? <a href="midia/Mob Rich - Yoko Ono.mp3" download="Mob Rich - Yoko Ono.mp3" type="audio/mpeg">Clique aqui para fazer o dowload da música.</a></p> 
+    </audio>
+<source srcset="" type="image/">
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos Hospedados Localmente</h1>
+    <p>Esse vídeo está hospedado no meu próprio servidor.</p>
+    <video src="midia/dowloads.mp4" width="300" controls></video>
+<!---Assim como no áudio, no vídeo tem a forma simples e básica e a forma completa e indicada. A simples acima, a indicada abaixo.-->
+    <p>Segunda forma:</p>
+    <video width="300" controls poster="img/1.jpg">
+        <source src="midia/dowloads.mp4" type="video/mp4">
+        <source src="midia/dowloads.m4v" type="video/m4v">
+        <source src="midia/dowloads.webm" type="video/webm">
+        <source src="midia/dowloads.ogv" type="video/ogv">
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos. <a href="midia/dowloads.mp4" download="dowloads.mp4">Clique aqui para fazer o dowload</a></p>
+    </video>
+<h1>Inserindo Vídeos com Hospedagem Externa</h1>
+    <h2>Vídeos do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ECT_fNbXECM?si=-wSNDA0Hg2YEZ5ai" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+
+</body>
+</html>
